@@ -1,0 +1,18 @@
+.main {
+    background-color:rgba(112, 107, 107, 0.068);
+    height: 2000px;
+}
+.button {
+    background-color: #0094FF;
+    border: none;
+    line-height: 20px;
+}
+.container {
+    width: 100%;
+    height: auto;
+    padding-top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
