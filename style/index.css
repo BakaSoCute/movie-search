@@ -16,3 +16,37 @@
     align-items: center;
     gap: 10px;
 }
+.contentLi{
+    width: auto;
+    height: 200px;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-content: flex-start;
+}
+.contentLi:hover{
+    background-color: darkgrey;
+    cursor: pointer;
+}
+.contentImg{
+    width: 100px;
+}
+.contentH2{
+    font-size: 40px;
+    margin: 0;
+}
+.contentP1{
+    font-size: 25px;
+    margin: 0;
+}
+.contentP2{
+    font-size: 30px;
+    margin: 0;
+}
+.imgWrapper{
+    width: 100px;
+    padding-left: 10px;
+}
