@@ -43,6 +43,10 @@ const result = (data) => {
                 contentNode.appendChild(addLi)
                 addLi.classList = "contentLi";
 
+                addLi.addEventListener("click", () => {
+                    window.location.href = `details.html?i=${item.imdbID}`;
+                })
+
                 const imgWrapper = document.createElement("div")
                 addLi.appendChild(imgWrapper)
                 imgWrapper.classList = "imgWrapper"
